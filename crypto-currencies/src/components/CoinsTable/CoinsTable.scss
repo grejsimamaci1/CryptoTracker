@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    .search-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        .search-box {
+            width: 60%;
+            height: 40px;
+            border: 1px solid #ccc;
+            outline: none;
+            font-size: 18px;
+            padding: 0 10px;
+            border-radius: 4px;
+          }
+      }
+
+
+      .coins-container {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+
+
+        .coin-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+
+            .coin-info {
+                display: flex;
+                flex-direction: column;
+                
+
+                .coin-name {
+                    font-size: 18px;
+                    font-weight: bold;
+                  }
+
+                .coin-symbol {
+                    font-size: 16px;
+                    font-weight: lighter;
+                    color: #666;
+                }
+                  
+              }
+
+              .coin-price {
+                display: flex;
+                flex-direction: column;
+
+                .price-usd{
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+
+                .price-change {
+                    display: flex;
+                    align-items: center;
+                  }
+              }
+
+            .coin-remove:hover{
+                cursor: pointer;
+            }
+              
+       
+          }
+         
+      }
+
+      .link{
+        text-decoration: none;
+      }
+      .buttonContainer{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        color: blue;
+        justify-content: center;
+        padding: 10px 10px;
+        border: 2px solid blue;
+        border-radius: 15px;
+    
+        .btn{
+            border: none;
+            color: blue;
+            background-color: transparent;
+            font-size: 23px;
+            font-weight: bold;
+        }
+    }
+    
+        .buttonContainer:hover{
+            display: flex;
+            flex-direction: row;
+            color: white;
+            background-color: blue;
+            justify-content: center;
+            padding: 10px 10px;
+            border: 2px solid blue;
+            border-radius: 15px;
+    
+            .btn{
+                border: none;
+                color: white;
+                background-color: transparent;
+                font-size: 23px;
+                font-weight: bold;
+            }
+        
+        }
+
+     
+    }
+
+
